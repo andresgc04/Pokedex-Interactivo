@@ -40,7 +40,7 @@ const Pokemon = (props) => {
               );
             })}
           </div>
-          <button onClick={clickHeart}>
+          <button onClick={clickHeart} className="pokemon-heart-btn">
             <div className="pokemon-favorite">{heart}</div>
           </button>
         </div>
